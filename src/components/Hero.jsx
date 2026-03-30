@@ -1,12 +1,12 @@
 import { IoPlayOutline } from "react-icons/io5";
-
+import banner from "../assets/banner.png"
 const Hero = () => {
   return (
     <div className="min-h-screen gap-0 hero bg-base-200">
       <div className="flex-col gap-x-10 hero-content lg:flex-row-reverse">
 
         <img
-          src="../assets/banner.png"
+          src={banner}
           className="w-full max-w-sm rounded-lg shadow-2xl"
           alt="Hero"
         />
