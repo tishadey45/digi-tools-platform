@@ -3,7 +3,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm sm:px-8 px-4 md:px-10 lg:px-16 py-4 flex items-center justify-between">
+      <div className="navbar fixed z-10 bg-base-100 shadow-sm sm:px-8 px-4 md:px-10 lg:px-16 py-4 flex items-center justify-between">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,7 +24,7 @@ const Navbar = () => {
               </svg>
             </div>
           </div>
-          <h1 className=" font-bold bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent text-2xl">
+          <h1 className=" font-bold bg-linear-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent text-2xl">
             DigiTools
           </h1>
         </div>
@@ -55,7 +55,7 @@ const Navbar = () => {
               Login
             </span>
 
-            <button className="bg-gradient-to-r from-purple-500 to-indigo-500 text-white px-5 py-2 rounded-full font-semibold">
+            <button className="bg-linear-to-r from-purple-500 to-indigo-500 text-white px-5 py-2 rounded-full font-semibold">
               Get Started
             </button>
           </div>
