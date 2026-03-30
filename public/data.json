@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Design Pro Tool",
+    "description": "Create stunning UI/UX designs with powerful tools and templates.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ design templates",
+      "Drag & drop editor",
+      "Export to PNG & SVG"
+    ],
+    "icon": "🎨",
+    "image": "https://i.ibb.co.com/s949hLMJ/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Operations Manager",
+    "description": "Streamline your daily business operations with ease.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Task automation",
+      "Team collaboration",
+      "Real-time analytics"
+    ],
+    "icon": "⚙️",
+    "image": "https://i.ibb.co.com/Xf0fBjvT/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Builder",
+    "description": "Build and showcase your professional portfolio effortlessly.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Custom domains", "Responsive templates", "SEO optimization"],
+    "icon": "💼",
+    "image": "https://i.ibb.co.com/XkJpWQh2/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "E-Commerce Kit",
+    "description": "Launch your online store with all essential features included.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Shopping cart system",
+      "Payment gateway integration",
+      "Order management"
+    ],
+    "icon": "🛒",
+    "image": "https://i.ibb.co.com/jPTdW7DT/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "Social Media Suite",
+    "description": "Manage and grow your social media presence effectively.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Post scheduling",
+      "Analytics dashboard",
+      "Multi-platform support"
+    ],
+    "icon": "📱",
+    "image": "https://i.ibb.co.com/QFK5JPfD/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Content Writing AI",
+    "description": "Generate high-quality content using AI-powered tools.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "AI content generation",
+      "Grammar correction",
+      "Export to PDF & DOCX"
+    ],
+    "icon": "✍️",
+    "image": "https://i.ibb.co.com/93HzSGvq/writing-23274001.png"
+  }
+]
