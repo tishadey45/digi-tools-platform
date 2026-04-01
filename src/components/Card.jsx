@@ -1,8 +1,7 @@
-import React from "react";
-
-const Card = ({ toolData }) => {
-    console.log(toolData);
-  const { name, description, price, image, tagType, period, tag,features } = toolData;
+const Card = ({ toolData, addToCart }) => {
+  // console.log(toolData);
+  const { name, description, price, image, tagType, period, tag, features } =
+    toolData;
   return (
     <div className="flex flex-col p-6 border border-gray-200 rounded-lg shadow-sm">
       <div className="flex items-center justify-between mb-4">
@@ -14,7 +13,8 @@ const Card = ({ toolData }) => {
       <h2 className="mb-2 text-xl font-bold">{toolData?.name}</h2>
       <p className="mb-4 text-gray-600">{description}</p>
       <p className="mb-4 text-lg font-semibold">
-        ${price} <span className="text-sm text-gray-400">{period}</span>
+        ${price}
+        <span className="text-sm text-gray-400">/{period}</span>
       </p>
       <ul className="flex flex-col gap-2 mb-4 text-sm">
         {features?.map((feature, index) => (
@@ -37,7 +37,10 @@ const Card = ({ toolData }) => {
           </li>
         ))}
       </ul>
-      <button className="py-2 mt-auto text-white rounded-full bg-linear-to-r from-purple-500 to-indigo-500">
+      <button
+        className="py-2 mt-auto text-white rounded-full bg-linear-to-r from-purple-500 to-indigo-500"
+        onClick={addToCart}
+      >
         Buy Now
       </button>
     </div>
