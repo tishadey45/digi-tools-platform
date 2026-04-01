@@ -1,4 +1,5 @@
 import { useState } from "react";
+import toast from "react-hot-toast";
 import Card from "./Card";
 
 const DigitalCard = ({ data }) => {
@@ -9,19 +10,22 @@ const DigitalCard = ({ data }) => {
   const addToCart = (item) => {
     setCartItems((prev) => [...prev, item]);
     setView("cart");
+    toast.success("Item added to cart success");
   };
 
   // Remove item from cart
   const removeFromCart = (id) => {
     setCartItems((prev) => prev.filter((item) => item.id !== id));
+    toast.error("Item removed from cart!");
   };
 
   // Calculate total price
   const totalPrice = cartItems.reduce((total, item) => total + item.price, 0);
 
+  // Handle Checkout
   const handleCheckout = () => {
-    // alert("Checkout successful!");
     setCartItems([]);
+    toast.success("Checkout successful!");
   };
 
   return (
@@ -48,17 +52,17 @@ const DigitalCard = ({ data }) => {
             ></div>
             <span
               className={`absolute left-2 text-sm font-medium transition-colors duration-300 ${
-                view === "products" ? "text-black" : "text-gray-500"
+                view === "products" ? "text-white" : "text-black"
               }`}
             >
               Products
             </span>
             <span
               className={`absolute right-2 text-sm font-medium transition-colors duration-300 ${
-                view === "cart" ? "text-black" : "text-gray-500"
+                view === "cart" ? "text-white" : "text-black"
               }`}
             >
-              Cart
+              Cart ({cartItems.length > 0 ? cartItems.length : 0})
             </span>
           </div>
         </div>
