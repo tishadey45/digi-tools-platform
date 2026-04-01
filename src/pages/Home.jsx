@@ -1,16 +1,18 @@
-import React from "react";
-import Hero from "../components/Hero";
+import { useLoaderData } from "react-router-dom";
 import DigitalCard from "../components/DigitalCard";
-import {useLoaderData} from "react-router-dom";
+import GetSteps from "../components/GetSteps";
+import Hero from "../components/Hero";
+import Simple from "../components/Simple";
 
 const Home = () => {
-  const data = useLoaderData()
-  console.log(data);
+  const data = useLoaderData();
+  // console.log(data);
   return (
     <div>
       <Hero />
-      <DigitalCard data ={data} />
-     
+      <DigitalCard data={data} />
+      <GetSteps />
+      <Simple />
     </div>
   );
 };

@@ -6,8 +6,8 @@ const DigitalCard = ({ data }) => {
   return (
     <div className="px-16 py-20 mx-auto max-w-7xl">
       <div className="pb-20 text-center">
-        <h2 className="text-5xl">Premium Digital Tools</h2>
-        <p className="text-[20px] font-light from-neutral-100">
+        <h2 className="text-5xl font-bold">Premium Digital Tools</h2>
+        <p className="pt-4 font-semibold text-gray-500 font-3xl">
           Choose from our curated collection of premium digital products
           designed <br /> boost your productivity and creativity.
         </p>
