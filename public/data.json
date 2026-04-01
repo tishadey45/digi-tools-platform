@@ -4,7 +4,7 @@
     "name": "Design Pro Tool",
     "description": "Create stunning UI/UX designs with powerful tools and templates.",
     "price": 49,
-    "period": "one-time",
+    "period": "One-Time",
     "tag": "popular",
     "tagType": "popular",
     "features": [
@@ -20,7 +20,7 @@
     "name": "Operations Manager",
     "description": "Streamline your daily business operations with ease.",
     "price": 19,
-    "period": "monthly",
+    "period": "Mo",
     "tag": "new",
     "tagType": "new",
     "features": [
@@ -36,7 +36,7 @@
     "name": "Portfolio Builder",
     "description": "Build and showcase your professional portfolio effortlessly.",
     "price": 29,
-    "period": "one-time",
+    "period": "One-Time",
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Custom domains", "Responsive templates", "SEO optimization"],
@@ -48,7 +48,7 @@
     "name": "E-Commerce Kit",
     "description": "Launch your online store with all essential features included.",
     "price": 39,
-    "period": "monthly",
+    "period": "Mo",
     "tag": "popular",
     "tagType": "popular",
     "features": [
@@ -64,7 +64,7 @@
     "name": "Social Media Suite",
     "description": "Manage and grow your social media presence effectively.",
     "price": 25,
-    "period": "monthly",
+    "period": "Mo",
     "tag": "new",
     "tagType": "new",
     "features": [
