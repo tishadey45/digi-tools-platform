@@ -2,11 +2,17 @@
 
 A modern React-based digital tools marketplace where users can browse, buy, and manage premium digital products. Fully responsive, with an intuitive UI and real-time cart functionality.
 
-## 🌐 Live Site
-[Visit Live Site](https://digi-tools-platform.vercel.app/)
+---
 
-## 💻 GitHub Repository
-[GitHub Repo](https://github.com/tishadey45/digi-tools-platform)
+# 🖥️ Live Demo
+
+🔗 **Live Site:**
+[https://digi-tools-platform.vercel.app](https://digi-tools-platform.vercel.app)
+
+🔗 **GitHub Repository:**
+[https://github.com/tishadey45/digi-tools-platform](https://github.com/tishadey45/digi-tools-platform)
+
+---
 
 ## 🛠️ Technologies Used
 - React.js  
