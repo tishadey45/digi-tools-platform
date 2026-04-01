@@ -1,12 +1,47 @@
-# React + Vite
+# Digi Tools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based digital tools marketplace where users can browse, buy, and manage premium digital products. Fully responsive, with an intuitive UI and real-time cart functionality.
 
-Currently, two official plugins are available:
+## 🌐 Live Site
+[Visit Live Site](https://digi-tools-platform.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 GitHub Repository
+[GitHub Repo](https://github.com/tishadey45/digi-tools-platform)
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
+- React.js  
+- Tailwind CSS & DaisyUI  
+- JavaScript (ES6+)  
+- React-Toastify  
+- JSON for product data  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+1. **Dynamic Product Cards** – Display product name, description, price, period, tags, features, and icon with a Buy Now button.  
+2. **Cart Functionality** – Add/remove products, view total items in navbar, and clear cart on checkout.  
+3. **Responsive Design** – Fully responsive across devices, following standard responsive practices.  
+4. **Toast Notifications** – Alerts for adding to cart, removing items, and checkout using React-Toastify.  
+
+## 📦 Product Data
+- Products are stored as JSON with fields:
+  - `id`, `name`, `description`, `price`, `period`, `tag`, `tagType`, `features`, `icon`
+
+## 🧩 Sections
+- Navbar with cart count  
+- Banner with heading, description, image, and buttons  
+- Stats section  
+- Product & Cart toggle section  
+- Steps section  
+- Pricing section  
+- Footer  
+
+## ⚡ Optional Features
+- Product count increases on Buy Now and resets on checkout  
+- “Added to cart” toast messages  
+
+---
+
+## 📌 How to Run Locally
+
+1. Clone the repository:
+```bash
+git clone https://github.com/tishadey45/digi-tools-platform.git
