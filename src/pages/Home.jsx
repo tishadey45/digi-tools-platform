@@ -3,6 +3,7 @@ import DigitalCard from "../components/DigitalCard";
 import GetSteps from "../components/GetSteps";
 import Hero from "../components/Hero";
 import Simple from "../components/Simple";
+import WorkFlow from "../components/WorkFlow";
 
 const Home = () => {
   const data = useLoaderData();
@@ -13,6 +14,7 @@ const Home = () => {
       <DigitalCard data={data} />
       <GetSteps />
       <Simple />
+      <WorkFlow/>
     </div>
   );
 };
