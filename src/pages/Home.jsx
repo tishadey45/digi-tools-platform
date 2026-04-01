@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <Hero />
       <DigitalCard data ={data} />
-      <GetSteps/>
+     
     </div>
   );
 };
