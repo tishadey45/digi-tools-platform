@@ -4,6 +4,7 @@ import GetSteps from "../components/GetSteps";
 import Hero from "../components/Hero";
 import Simple from "../components/Simple";
 import WorkFlow from "../components/WorkFlow";
+import StartSection from "../components/StartSection";
 
 const Home = () => {
   const data = useLoaderData();
@@ -11,6 +12,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
+      <StartSection/>
       <DigitalCard data={data} />
       <GetSteps />
       <Simple />
